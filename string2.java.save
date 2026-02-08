@@ -1,0 +1,11 @@
+class string2{
+  public static void main(String[] args)
+  {
+   String university=new String("devi ahilya bai vishva vidhyalaya");
+   String collegeaff=new String("devi ahilya bai vishva vidhyalaya");
+   System.out.println(university==collegeaff);
+   System.out.println(university.equals(collegeaff));
+  //here we are using two different type of methods to compare the value of two strings the firstone is a comparision opertor and the other one is a methode used to compare if the implemnetation is not the case to look at or worry about it will evaluate on the basis of values and comparision operator will always evaluate on the basis of mem 
+  }
+
+ }
